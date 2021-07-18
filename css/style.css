@@ -92,6 +92,22 @@ h3,h4,h5,h6{
     background-color: #343996;
 }
 
+/* navbar start  */
+.navbar{
+    padding: 10px 5%;
+}
+ul.navbar-nav{
+    margin-left: auto;
+}
+ul li.nav-item{
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.navbar .navbar-collapse {
+   text-align: center;
+  }
+
+/* navbar end  */
 
 /* Button */
 button{
@@ -279,8 +295,8 @@ button{
 
 /* Contact Section  */
 
+
 .contact-form .input-group{
-    width:100%;
     margin-bottom: 30px;
 }
 
@@ -350,19 +366,3 @@ button{
     padding: 5% auto;
 }
 
-
-/* navbar */
-.navbar{
-    padding-top: 0;
-}
-.navbar .container-fluid{
-    background-color: var(--white-alpha-25);
-    padding: 1% 10%;
-}
-.navbar .collapse{
-    margin-right: 10%;
-}
-
-.navbar .collapse ul li{
-    margin:0 8%;
-}
